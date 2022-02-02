@@ -200,7 +200,7 @@ def main():
     
     if page_selection == 'EDA':
         st.title('Exploratory Data Analysis')
-        st.image('resources/imgs/most common genres.PNG', use_column_width=True)
+        st.image('resources/imgs#most common genres.PNG', use_column_width=True)
         st.markdown(' This graph shows the number of movies per genre, from most to least')
         st.markdown('--------')  
     
