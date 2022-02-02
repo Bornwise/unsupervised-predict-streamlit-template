@@ -200,27 +200,27 @@ def main():
     
     if page_selection == 'EDA':
         st.title('Exploratory Data Analysis')
-        st.image('resources/imgs/most common genres.PNG', use_column_width=True)
+        st.image('./resources/imgs/most common genres.PNG', use_column_width=True)
         st.markdown(' This graph shows the number of movies per genre, from most to least')
         st.markdown('--------')  
     
-        st.image('resources/imgs/percentage per user.PNG', use_column_width=True)
+        st.image('./resources/imgs/percentage per user.PNG', use_column_width=True)
         st.markdown(' This graph shows the percentage of users per rating')
         st.markdown('--------')
 
-        st.image('resources/imgs/popular actors.PNG', use_column_width=True)
+        st.image('./resources/imgs/popular actors.PNG', use_column_width=True)
         st.markdown('This graph shows the top 20 of popular actors')
         st.markdown('--------')
 
-        st.image('resources/imgs/number of movie per director.PNG', use_column_width=True)
+        st.image('./resources/imgs/number of movie per director.PNG', use_column_width=True)
         st.markdown('This graphs shows the number of movies per director ')
         st.markdown('--------')
 
-        st.image('resources/imgs/rating per user.PNG', use_column_width=True)
+        st.image('./resources/imgs/rating per user.PNG', use_column_width=True)
         st.markdown('This graph shows the rating per user')
         st.markdown('--------')
 
-        st.image('resources/imgs/total movie release per year.PNG', use_column_width=True)
+        st.image('./resources/imgs/total movie release per year.PNG', use_column_width=True)
         st.markdown('The graph shows the total movies release per year')
         st.markdown('--------')
    
