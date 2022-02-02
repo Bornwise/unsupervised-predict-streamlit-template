@@ -208,31 +208,31 @@ def main():
         st.markdown(' This graph shows the percentage of users per rating')
         st.markdown('--------')
 
-        st.image('resources/imgs/popular actors.png', use_column_width=True)
+        st.image('resources/imgs/popular actors.PNG', use_column_width=True)
         st.markdown('This graph shows the top 20 of popular actors')
         st.markdown('--------')
 
-        st.image('resources/imgs/number of movie per director.png', use_column_width=True)
+        st.image('resources/imgs/number of movie per director.PNG', use_column_width=True)
         st.markdown('This graphs shows the number of movies per director ')
         st.markdown('--------')
 
-        st.image('resources/imgs/rating per user.png', use_column_width=True)
+        st.image('resources/imgs/rating per user.PNG', use_column_width=True)
         st.markdown('This graph shows the rating per user')
         st.markdown('--------')
 
-        st.image('resources/imgs/total movie release per year.png', use_column_width=True)
+        st.image('resources/imgs/total movie release per year.PNG', use_column_width=True)
         st.markdown('The graph shows the total movies release per year')
         st.markdown('--------')
    
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
         st.markdown("### CONTENT BASED FILTERING")
-        st.image('resources/imgs/content base.png')
+        st.image('resources/imgs/content base.PNG')
         st.markdown('Uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.')
         
 
         st.markdown('### COLLABORATIVE BASED FILTERING')
-        st.image('resources\imgs\collaborative.png')
+        st.image('resources\imgs\collaborative.PNG')
         st.markdown('builds a model from your past behavior (i.e. movies watched or selected by the you) as well as similar decisions made by other users.')
         
 
