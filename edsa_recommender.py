@@ -227,12 +227,12 @@ def main():
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
         st.markdown("### CONTENT BASED FILTERING")
-        st.image('resources/imgs/content base.PNG')
+        st.image('resources/imgs/content base.Png', use_column_width=True)
         st.markdown('Uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.')
         
 
         st.markdown('### COLLABORATIVE BASED FILTERING')
-        st.image('resources\imgs\collaborative.PNG')
+        st.image('resources\imgs\collaborative.png', use_column_width=True)
         st.markdown('builds a model from your past behavior (i.e. movies watched or selected by the you) as well as similar decisions made by other users.')
         
 
