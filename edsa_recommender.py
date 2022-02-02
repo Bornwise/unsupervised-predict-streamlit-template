@@ -204,7 +204,7 @@ def main():
         st.markdown(' This graph shows the number of movies per genre, from most to least')
         st.markdown('--------')  
     
-        st.image('resources/imgs/percentage per user.png', use_column_width=True)
+        st.image('resources/imgs/percentage per user.PNG', use_column_width=True)
         st.markdown(' This graph shows the percentage of users per rating')
         st.markdown('--------')
 
