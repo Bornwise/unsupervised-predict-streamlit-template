@@ -227,7 +227,7 @@ def main():
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
         st.markdown("### CONTENT BASED FILTERING")
-        st.image('resources/imgs/content base.PNG', use_column_width=True)
+        st.image('resources/imgs/content base.png', use_column_width=True)
         st.markdown('Uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.')
         
 
